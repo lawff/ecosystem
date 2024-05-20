@@ -17,6 +17,7 @@ opentelemetry = "0.23"
 opentelemetry-otlp = { version = "0.16", features = ["tonic"] }
 opentelemetry_sdk = { version = "0.23", features = ["rt-tokio"] }
 tracing-opentelemetry = "0.23"
+strum = { version = "0.26.2", features = ["derive"] }
 
 [dev-dependencies]
 serde = { version = "1.0.202", features = ["derive"] }
