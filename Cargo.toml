@@ -13,6 +13,10 @@ thiserror = "1.0"
 tracing = "0.1.40"
 tracing-appender = "0.2.3"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+opentelemetry = "0.23"
+opentelemetry-otlp = { version = "0.16", features = ["tonic"] }
+opentelemetry_sdk = { version = "0.23", features = ["rt-tokio"] }
+tracing-opentelemetry = "0.23"
 
 [dev-dependencies]
 serde = { version = "1.0.202", features = ["derive"] }
