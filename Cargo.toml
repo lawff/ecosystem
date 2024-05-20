@@ -25,3 +25,4 @@ axum = { version = "0.7.5", features = ["http2", "query", "tracing"] }
 tokio = { version = "1.37.0", features = ["full"] }
 derive_builder = "0.20.0"
 chrono = "0.4.38"
+derive_more = "0.99.17"
