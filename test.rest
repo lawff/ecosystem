@@ -1,3 +1,12 @@
 ### index
 
 GET http://localhost:8080
+
+
+### update
+PATCH http://localhost:8080
+Content-Type: application/json
+
+{
+  "name": "lawliet"
+}
