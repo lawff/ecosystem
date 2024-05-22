@@ -27,3 +27,6 @@ tokio = { version = "1.37.0", features = ["full"] }
 derive_builder = "0.20.0"
 chrono = { version = "0.4.38", features = ["serde"] }
 derive_more = "0.99.17"
+serde_with = "3.8.1"
+base64 = "0.22.1"
+http = "1.1.0"
