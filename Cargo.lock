@@ -236,6 +236,9 @@ name = "bytes"
 version = "1.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "514de17de45fdb8dc022b1a7975556c53c86f9f0aa5f534b98977b171857c2c9"
+dependencies = [
+ "serde",
+]
 
 [[package]]
 name = "cc"
@@ -387,6 +390,7 @@ dependencies = [
  "anyhow",
  "axum 0.7.5",
  "base64 0.22.1",
+ "bytes",
  "chrono",
  "derive_builder",
  "derive_more",
