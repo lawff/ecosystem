@@ -18,6 +18,10 @@ opentelemetry-otlp = { version = "0.16", features = ["tonic"] }
 opentelemetry_sdk = { version = "0.23", features = ["rt-tokio"] }
 tracing-opentelemetry = "0.23"
 strum = { version = "0.26.2", features = ["derive"] }
+dashmap = "5.5.3"
+tokio-util = { version = "0.7.11", features = ["codec"] }
+futures = "0.3.30"
+tokio-stream = "0.1.15"
 
 [dev-dependencies]
 serde = { version = "1.0.202", features = ["derive"] }
